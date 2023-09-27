@@ -2,7 +2,8 @@ function setupProxy({ tls }) {
   const conf = [
     {
       context: ['/api', '/services', '/management', '/v3/api-docs', '/h2-console', '/auth', '/health'],
-      target: `http${tls ? 's' : ''}://localhost:8980`,
+      // target: `http${tls ? 's' : ''}://localhost:8980`,
+      target: process.env.SERVER_API_URL_URL,
       secure: false,
       changeOrigin: tls,
     },
