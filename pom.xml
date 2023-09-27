@@ -6,10 +6,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.erp</groupId>
-    <artifactId>gdi-staging</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>GDI Staging</name>
-    <description>Mark IV No 2 (David Series) Client 0.0.1-SNAPSHOT</description>
+    <artifactId>erp-client</artifactId>
+    <version>1.5.2</version>
+    <name>Erp System</name>
+    <description>Mark V No 5 (Ehud Series) Client 1.5.2</description>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->

@@ -19,7 +19,7 @@
 version: '3'
 
 services:
-  gdi-staging:
+  erp-client:
     build: .
-    container_name: ghacupha/gdi-staging:0.0.1-SNAPSHOT
-      - 8000:8982
+    container_name: ghacupha/erp-client:0.0.2-SNAPSHOT
+      - 8000:8981
